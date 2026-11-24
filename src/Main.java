@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Результат");
         System.out.println("Сложить "+a+" и "+b+" = "+((int)plus.calc(a,b)));
         System.out.println("Вычесть из "+a+" число "+b+" = "+((int)minus.calc(a,b)));
-        System.out.println("Разделить "+a+" на "+b+" = "+ delit.calc(a,b));
+        System.out.println("Разделить "+a+" на "+b+" = "+ ((int)delit.calc(a,b)));
         System.out.println("Умножить "+a+" на "+b+" = "+((int)multi.calc(a,b)));
     }
 }
